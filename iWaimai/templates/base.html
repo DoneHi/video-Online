@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% load staticfiles %}
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>稻嗨</title>
+<link rel="stylesheet" href="{% static 'css/cooker.css'%}">
+<link rel="stylesheet" href="{% static 'css/docs.css' %}">
+<link rel="stylesheet" href="{% static 'css/drawer.min.css'%}">
+ <link rel="stylesheet" href="{% static 'css/semantic.min.css' %}">
+<script src="{% static 'js/jquery.min.js'%}"></script>
+<script src="{% static 'js/iscroll.js' %}"></script>
+    <script src="{% static 'js/semantic.min.js' %}"></script>
+<script src="{% static 'js/jquery.drawer.min.js'%}"></script>
+<base target="_blank" />
+</head>
+<body class="drawer drawer-right">
+ {% block content %} {% endblock %}
+</body>
+</html>
